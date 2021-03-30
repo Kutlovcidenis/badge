@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Scale Badge Component</title>
+    <script type="module" src="/build/badge.esm.js"></script>
+    <script nomodule src="/build/badge.js"></script>
+
+<style>
+#span1 {
+  position: relative;
+}
+
+#test{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+  </head>
+
+  <body>
+    <scale-badge-component size="big" color="magenta" rotation="15">
+      <div>
+        <a style="color:#ffffff; font-size: 10px; font-family: TeleNeo; font-weight: normal;">Für nur</a>
+        <br>
+        
+        <div id="span1" style="color:#ffffff; font-size:40px; font-family: TeleNeo-ExtraBold;">15€<span id="test">*</span></div>
+        
+      </div>
+    </scale-badge-component>
+    
+  </body>
+
+</html>
