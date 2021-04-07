@@ -5,11 +5,10 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
-	background: rgb(206, 79, 57);
+	background: magenta;
   }
   
-  .circle__text {
-	border: 1px solid black;
+  .badge {
 	width: 70%;
 	height: 70%;
 	transform: rotate(20deg);

@@ -6,32 +6,32 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface ScaleBadgeComponent {
+    interface ScaleBadge {
     }
 }
 declare global {
-    interface HTMLScaleBadgeComponentElement extends Components.ScaleBadgeComponent, HTMLStencilElement {
+    interface HTMLScaleBadgeElement extends Components.ScaleBadge, HTMLStencilElement {
     }
-    var HTMLScaleBadgeComponentElement: {
-        prototype: HTMLScaleBadgeComponentElement;
-        new (): HTMLScaleBadgeComponentElement;
+    var HTMLScaleBadgeElement: {
+        prototype: HTMLScaleBadgeElement;
+        new (): HTMLScaleBadgeElement;
     };
     interface HTMLElementTagNameMap {
-        "scale-badge-component": HTMLScaleBadgeComponentElement;
+        "scale-badge": HTMLScaleBadgeElement;
     }
 }
 declare namespace LocalJSX {
-    interface ScaleBadgeComponent {
+    interface ScaleBadge {
     }
     interface IntrinsicElements {
-        "scale-badge-component": ScaleBadgeComponent;
+        "scale-badge": ScaleBadge;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "scale-badge-component": LocalJSX.ScaleBadgeComponent & JSXBase.HTMLAttributes<HTMLScaleBadgeComponentElement>;
+            "scale-badge": LocalJSX.ScaleBadge & JSXBase.HTMLAttributes<HTMLScaleBadgeElement>;
         }
     }
 }
