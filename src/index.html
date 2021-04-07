@@ -9,19 +9,38 @@
     <script nomodule src="/build/badge.js"></script>
 
     <style>
-      .text {
+
+      .textOne {
         text-align: center;
+        font-size: 15px;
+        font-family: teleNeo;
+        color: white;
       }
+
+      .textTwo {
+        text-align: center;
+        font-size: 48px;
+        font-family: TeleNeo_ExtraBold;
+        color: white;
+      }
+
+      sup{
+        line-height: 2.5;
+        font-size: 18px;
+        border-style:solid;
+        color: black
+      }
+
     </style>
 
   </head>
 
   <body>
-    <scale-badge size="small" color="orange" rotation="15">
+    <scale-badge size="big" color="magenta" rotation="15">
       <div>
-        <div class="text">Für</div>
-        <div class="text"><span>15€</span><sup>*</sup>
-      </div>
+        <br>
+        <div class="textOne">Für nur</div>
+        <div class="textTwo"><span>15€</span><sup title="only for school kids">*</sup></div>
     </scale-badge>
   </body>
 

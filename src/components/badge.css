@@ -9,9 +9,10 @@
   }
   
   .badge {
-	width: 70%;
-	height: 70%;
+	width: var(--badge-text-width);
+	height: var(--badge-text-height);
 	transform: rotateZ(var(--badge-rotation));
 	overflow: hidden;
+	border-style: solid;
   }
   
