@@ -2,16 +2,16 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 200px;
-	height: 200px;
+	width: var(--badge-size);
+	height: var(--badge-size);
 	border-radius: 100%;
-	background: magenta;
+	background: var(--badge-color);
   }
   
   .badge {
 	width: 70%;
 	height: 70%;
-	transform: rotate(20deg);
+	transform: rotateZ(var(--badge-rotation));
 	overflow: hidden;
   }
   

@@ -7,6 +7,9 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface ScaleBadge {
+        "color": 'magenta' | 'white' | 'black' | string;
+        "rotation": number;
+        "size": 'big' | 'small';
     }
 }
 declare global {
@@ -22,6 +25,9 @@ declare global {
 }
 declare namespace LocalJSX {
     interface ScaleBadge {
+        "color"?: 'magenta' | 'white' | 'black' | string;
+        "rotation"?: number;
+        "size"?: 'big' | 'small';
     }
     interface IntrinsicElements {
         "scale-badge": ScaleBadge;
