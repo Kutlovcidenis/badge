@@ -12,37 +12,154 @@
 
       .textOne {
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         font-family: TeleNeo;
         color: white;
+        font-weight: 400;
       }
 
       .textTwo {
         text-align: center;
-        font-size: 48px;
+        font-size: 60px;
         font-family: TeleNeo;
         color: white;
-        font-weight: bold;
+        font-weight: 700;
       }
 
       sup{
-        line-height: 2.5;
-        font-size: 18px;
-        border-style:solid;
-        color: black
+        font-size: 30px;
+        color: black;
+        cursor: help;
+        
       }
+
+      .textThree {
+        text-align: center;
+        font-size: 15px;
+        font-family: TeleNeo;
+        color: black;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+
+      .textFour {
+        text-align: center;
+        font-size: 40px;
+        font-family: TeleNeo;
+        color: black;
+        font-weight: 700;
+      }
+
+      .textFive {
+        text-align: center;
+        font-size: 25px;
+        font-family: TeleNeo;
+        color: white;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+
+      .textSix {
+        text-align: center;
+        font-size: 30px;
+        font-family: TeleNeo;
+        color: white;
+        font-weight: 700;
+      }
+
+      .textSeven {
+        text-align: center;
+        font-size: 25px;
+        font-family: TeleNeo;
+        color: black;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+
+      .textEight {
+        text-align: center;
+        font-size: 35px;
+        font-family: TeleNeo;
+        color: black;
+        font-weight: 700;
+      }
+      
 
     </style>
 
   </head>
 
   <body>
-    <scale-badge size="big" color="magenta" rotation="15">
+
+    <h1>Badge 1 Magenta/big</h1>
+    <scale-badge size="big" color="magenta" rotation="0">
       <div>
-        <br>
         <div class="textOne">Für nur</div>
-        <div class="textTwo"><span>15€</span><sup title="only for school kids">*</sup></div>
+        <div class="textTwo">
+          <span>15 €</span>
+        </div>
+      </div>
     </scale-badge>
+
+
+    <h1>Badge 2: White/small/rotation</h1>
+    <scale-badge size="small" color="white" rotation="30">
+      <div>
+        <div class="textThree">Für nur</div>
+        <div class="textFour">
+          <span>15 €</span>
+        </div>
+      </div>
+    </scale-badge>
+
+
+    <h1>Badge 3: Black/rotation/big</h1>
+    <scale-badge size="big" color="black" rotation="50">
+      <div>
+        <div class="textOne">Für nur</div>
+        <div class="textTwo">
+          <span>15 €</span>
+        </div>
+      </div>
+    </scale-badge>
+
+
+    <h1>Badge 4: Any color chosen</h1>
+    <scale-badge size="small" color="orange" rotation="0">
+      <div>
+        <div class="textThree">Für nur</div>
+        <div class="textFour">
+          <span>15 €</span>
+        </div>
+      </div>
+    </scale-badge>
+
+
+    <h1>Badge 5 Datum: Black/rotation/big</h1>
+    <scale-badge size="big" color="skyblue">
+      <div>
+        <div class="textFive">BIS</div>
+        <div class="textSix">
+          <span>31.01.2021</span>
+        </div>
+      </div>
+    </scale-badge>
+
+
+    <h1>Badge 6: Star Hover Info</h1>
+    <scale-badge size="big" color="magenta" rotation="0">
+      <div>
+        <div class="textSeven">ab</div>
+        <div class="textEight">
+          <span>19,95 €</span>
+          <sup title="This offer is only valid for a limited time. Free shipping on all orders.">*</sup>
+        </div>
+      </div>
+    </scale-badge>
+
+
+    
+
   </body>
 
 </html>

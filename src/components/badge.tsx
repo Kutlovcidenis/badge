@@ -17,7 +17,7 @@ const smallTextBox ={
 }
 
 const bgColor = {
-  magenta: '#e20074',
+  magenta: '#E20074',
   white: '#ffffff',
   black: '#000000',
 }
