@@ -13,6 +13,5 @@
 	height: var(--badge-text-height);
 	transform: rotateZ(var(--badge-rotation));
 	overflow: hidden;
-	border-style: solid;
   }
   
