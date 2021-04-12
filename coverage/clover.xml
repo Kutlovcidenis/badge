@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1618239188794" clover="3.2.0">
+  <project timestamp="1618239188794" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="9" coveredconditionals="4" methods="4" coveredmethods="4" elements="25" coveredelements="20" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+    <file name="badge.tsx" path="/Users/deniskutlovci/Projects/Telekom/badge/src/components/badge.tsx">
+      <metrics statements="12" coveredstatements="12" conditionals="9" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="34" count="2" type="stmt"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

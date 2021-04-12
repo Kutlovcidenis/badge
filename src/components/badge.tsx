@@ -31,9 +31,9 @@ const bgColor = {
 
 
 export class Badge {
-  @Prop() size: 'big' | 'small' = 'big'
-  @Prop() color: 'magenta' | 'white' | 'black' | string = "magenta";
-  @Prop() rotation: number = 0;
+  @Prop({mutable: true}) size: 'big' | 'small' = 'big'
+  @Prop({mutable: true}) color: 'magenta' | 'white' | 'black' | string = "magenta";
+  @Prop({mutable: true}) rotation: number = 0;
   
   displayStyle(){
     return `:host {
@@ -45,6 +45,9 @@ export class Badge {
     }`;
   }
 
+  add10ToRotation(){
+    this.rotation += 10;
+  }
 
   render() {
     return (
