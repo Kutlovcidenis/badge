@@ -31,8 +31,11 @@ const bgColor = {
 
 
 export class Badge {
+  /** (optional) Variant size of the badge itself */
   @Prop({mutable: true}) size: 'big' | 'small' = 'big'
+  /** (optional) Variant color/filling of the badge */
   @Prop({mutable: true}) color: 'magenta' | 'white' | 'black' | string = "magenta";
+  /** (optional) Variant rotation of the badge/circle */
   @Prop({mutable: true}) rotation: number = 0;
   
   displayStyle(){
