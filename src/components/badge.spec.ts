@@ -18,14 +18,6 @@ it ("should reflect attributes/props", async () => {
 })
 
 
-it ("Should add 10 to the rotation", async () => {
-    const badge = new Badge(); 
-    badge.rotation = 10;
-    badge.add10ToRotation();
-    expect(badge.rotation).toBe(20);
-});
-
-
 it ('check style --badge-text-width is ${width} for size="big"', async () => {
     const widthBig = '126.5px';
     let page = await newSpecPage({

@@ -45,10 +45,6 @@ export class Badge {
     }`;
   }
 
-  add10ToRotation(){
-    this.rotation += 10;
-  }
-
   render() {
     return (
       <Host>

@@ -7,86 +7,6 @@
     <title>Scale Badge Component</title>
     <script type="module" src="/build/badge.esm.js"></script>
     <script nomodule src="/build/badge.js"></script>
-
-    <style>
-
-      .textOne {
-        text-align: center;
-        font-size: 20px;
-        font-family: TeleNeo;
-        color: white;
-        font-weight: 400;
-      }
-
-      .textTwo {
-        text-align: center;
-        font-size: 60px;
-        font-family: TeleNeo;
-        color: white;
-        font-weight: 700;
-      }
-
-      sup{
-        font-size: 30px;
-        color: black;
-        cursor: help;
-        
-      }
-
-      .textThree {
-        text-align: center;
-        font-size: 15px;
-        font-family: TeleNeo;
-        color: black;
-        font-weight: 400;
-        margin-bottom: 10px;
-      }
-
-      .textFour {
-        text-align: center;
-        font-size: 40px;
-        font-family: TeleNeo;
-        color: black;
-        font-weight: 700;
-      }
-
-      .textFive {
-        text-align: center;
-        font-size: 25px;
-        font-family: TeleNeo;
-        color: white;
-        font-weight: 400;
-        margin-bottom: 10px;
-      }
-
-      .textSix {
-        text-align: center;
-        font-size: 30px;
-        font-family: TeleNeo;
-        color: white;
-        font-weight: 700;
-      }
-
-      .textSeven {
-        text-align: center;
-        font-size: 25px;
-        font-family: TeleNeo;
-        color: black;
-        font-weight: 400;
-        margin-bottom: 10px;
-      }
-
-      .textEight {
-        text-align: center;
-        font-size: 35px;
-        font-family: TeleNeo;
-        color: black;
-        font-weight: 700;
-      }
-      
-      
-    </style>
-
   </head>
 
   <body>
@@ -94,9 +14,13 @@
     <h1>Badge 1 Orange/big</h1>
     <scale-badge size="big" style="--badge-color:orange" rotation="0">
       <div>
-        <div class="textOne">Für nur</div>
-        <div class="textTwo">
-          <span>15 €</span>
+        <div style="text-align:center; font-size:20px; font-family:TeleNeo; color:white; font-weight:400;">
+          Für nur
+        </div>
+        <div style="text-align:center; font-size: 60px; font-family: TeleNeo; color: white; font-weight: 700;">
+          <span>
+            15 €
+          </span>
         </div>
       </div>
     </scale-badge>
@@ -105,9 +29,13 @@
     <h1>Badge 2: White/small/rotation</h1>
     <scale-badge size="small" color="white" rotation="30">
       <div>
-        <div class="textThree">Für nur</div>
-        <div class="textFour">
-          <span>15 €</span>
+        <div style="text-align: center; font-size: 15px; font-family: TeleNeo; color: black; font-weight: 400; margin-bottom: 10px;">
+          Für nur
+        </div>
+        <div style="text-align: center; font-size: 40px; font-family: TeleNeo; color: black; font-weight: 700;">
+          <span>
+            15 €
+          </span>
         </div>
       </div>
     </scale-badge>
@@ -116,9 +44,13 @@
     <h1>Badge 3: Black/rotation/big</h1>
     <scale-badge size="big" color="black" rotation="50">
       <div>
-        <div class="textOne">Für nur</div>
-        <div class="textTwo">
-          <span>15 €</span>
+        <div style="text-align:center; font-size:20px; font-family:TeleNeo; color:white; font-weight:400;">
+          Für nur
+        </div>
+        <div style="text-align:center; font-size: 60px; font-family: TeleNeo; color: white; font-weight: 700;">
+          <span>
+            15 €
+          </span>
         </div>
       </div>
     </scale-badge>
@@ -127,8 +59,10 @@
     <h1>Badge 4: Any color chosen</h1>
     <scale-badge size="small" color="orange" rotation="0">
       <div>
-        <div class="textThree">Für nur</div>
-        <div class="textFour">
+        <div style="text-align: center; font-size: 15px; font-family: TeleNeo; color: black; font-weight: 400; margin-bottom: 10px;">
+          Für nur
+        </div>
+        <div style="text-align: center; font-size: 40px; font-family: TeleNeo; color: black; font-weight: 700;">
           <span>15 €</span>
         </div>
       </div>
@@ -138,9 +72,13 @@
     <h1>Badge 5 Datum: Black/rotation/big</h1>
     <scale-badge size="big" color="skyblue">
       <div>
-        <div class="textFive">BIS</div>
-        <div class="textSix">
-          <span>31.01.2021</span>
+        <div style=" text-align: center; font-size: 25px; font-family: TeleNeo; color: white; font-weight: 400; margin-bottom: 10px;">
+          BIS
+        </div>
+        <div style="text-align: center; font-size: 25px; font-family: TeleNeo; color: white; font-weight: 400; margin-bottom: 10px;">
+          <span>
+            31.01.2021
+          </span>
         </div>
       </div>
     </scale-badge>
@@ -149,17 +87,17 @@
     <h1>Badge 6: Star Hover Info</h1>
     <scale-badge size="big" color="magenta" rotation="0">
       <div>
-        <div class="textSeven">ab</div>
-        <div class="textEight">
-          <span>19,95 €</span>
-          <sup title="This offer is only valid for a limited time. Free shipping on all orders.">*</sup>
+        <div style="text-align: center; font-size: 25px; font-family: TeleNeo; color: black; font-weight: 400; margin-bottom: 10px;">
+          ab
+        </div>
+        <div style="text-align: center; font-size: 35px; font-family: TeleNeo; color: black; font-weight: 700;">
+          <span>
+            19,95 €
+          </span>
+          <sup title="This offer is only valid for a limited time. Free shipping on all orders." style="font-size: 30px; color: black; cursor: help;">*</sup>
         </div>
       </div>
     </scale-badge>
 
-
-    
-
   </body>
-
 </html>
